@@ -1,10 +1,9 @@
 import { AboutSection } from "@/components/about-section";
+import { ExperienceSection } from "@/components/experience-section";
 import { HeroSection } from "@/components/hero-section";
 import { MenuPreview } from "@/components/menu-preview";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { WaysToEnjoy } from "@/components/ways-to-enjoy";
-import { WhyChooseUs } from "@/components/why-choose-us";
 
 export default function Home() {
   return (
@@ -14,8 +13,7 @@ export default function Home() {
         <HeroSection />
         <MenuPreview />
         <AboutSection />
-        <WaysToEnjoy />
-        <WhyChooseUs />
+        <ExperienceSection />
       </main>
       <div className="mx-auto max-w-[1336px] bg-paper px-5 lg:px-8"><SiteFooter /></div>
     </div>
